@@ -1,0 +1,23 @@
+Creating one is fairly straightforward using
+
+/usr/bin/irrecord
+
+which guides users along the needed process.
+
+If using a detected remote, invoke it like so:
+
+$ irrecord --device=/dev/lirc0 beebox
+
+The program will instruct users to begin hitting keys on the remote in an attempt to learn it,
+ultimately mapping out every button and its corresponding scancode.
+The process should take no more than 10 minutes.
+
+When finished, save the resulting file to /etc/lirc/lircd.conf.d/foo.conf and proceed
+
+
+
+Start lircd.service and enable it to run at boot time/shutdown (recommended).
+
+Test the remote using /usr/bin/irw, which simply echos anything received by LIRC when users push buttons on the remote to stdout.
+
+$ irw
