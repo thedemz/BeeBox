@@ -1,3 +1,7 @@
+### =================================================================
+### lircd.config
+### =================================================================
+
 Creating one is fairly straightforward using
 
 /usr/bin/irrecord
@@ -14,6 +18,49 @@ The process should take no more than 10 minutes.
 
 When finished, save the resulting file to /etc/lirc/lircd.conf.d/foo.conf and proceed
 
+### =================================================================
+### Example
+### =================================================================
+
+$ su
+$ irrecord --device=/dev/lirc0 MyRemote
+
+Warning: Running as root.
+
+irrecord -  application for recording IR-codes for usage with lirc
+Copyright (C) 1998,1999 Christoph Bartelmus(lirc@bartelmus.de)
+
+This program will record the signals from your remote control
+and create a config file for lircd.
+
+A proper config file for lircd is maybe the most vital part of this
+package, so you should invest some time to create a working config
+file. Although I put a good deal of effort in this program it is often
+not possible to automatically recognize all features of a remote
+control. Often short-comings of the receiver hardware make it nearly
+impossible. If you have problems to create a config file READ THE
+DOCUMENTATION at https://sf.net/p/lirc-remotes/wiki
+
+If there already is a remote control of the same brand available at
+http://sf.net/p/lirc-remotes you might want to try using such a
+remote as a template. The config files already contains all
+parameters of the protocol used by remotes of a certain brand and
+knowing these parameters makes the job of this program much
+easier. There are also template files for the most common protocols
+available. Templates can be downloaded using irdb-get(1). You use a
+template file by providing the path of the file as a command line
+parameter.
+
+Please take the time to finish the file as described in
+https://sourceforge.net/p/lirc-remotes/wiki/Checklist/ an send it
+to  <lirc@bartelmus.de> so it can be made available to others.
+Press RETURN to continue.
+
+
+
+### =================================================================
+### lircd.service
+### =================================================================
 
 
 Start lircd.service and enable it to run at boot time/shutdown (recommended).
