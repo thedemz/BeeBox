@@ -56,6 +56,31 @@ https://sourceforge.net/p/lirc-remotes/wiki/Checklist/ an send it
 to  <lirc@bartelmus.de> so it can be made available to others.
 Press RETURN to continue.
 
+---------
+
+Checking for ambient light  creating too much disturbances.
+Please don't press any buttons, just wait a few seconds...
+
+No significant noise (received 0 bytes)
+
+Enter name of remote (only ascii, no spaces) :fooo
+
+----------
+
+Using fooo.lircd.conf as output filename
+
+Now start pressing buttons on your remote control.
+
+It is very important that you press many different buttons and hold them
+down for approximately one second. Each button should generate at least one
+dot but in no case more than ten dots of output.
+Don't stop pressing buttons until two lines of dots (2x80) have been
+generated.
+
+Press RETURN now to start recording
+
+------------
+
 
 
 ### =================================================================
