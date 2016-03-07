@@ -1,0 +1,12 @@
+<lircmap>
+  <remote device="beebox">		
+    <play>KEY_PLAY</play>
+    <select>KEY_OK</select>
+    <up>KEY_UP</up>
+    <down>KEY_DOWN</down>
+    <left>KEY_LEFT</left>
+    <right>KEY_RIGHT</right>
+    <pause>KEY_PAUSE</pause>
+    <back>KEY_BACK</back>
+  </remote>
+</lircmap>
