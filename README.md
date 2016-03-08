@@ -35,6 +35,8 @@ There is a blank Input field named "Change the lirc configuration file", enter t
 
 `~/.lircrc`
 
+Place the `.lircrc` and `.lirc/vlc` in your home folder like `~/.lircrc` and `~/.lirc/vlc`
+
 
 ![alt text](http://www.asrock.com/nettop/Accessories/Beebox%20Series.jpg "")
 
