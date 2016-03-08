@@ -1,0 +1,107 @@
+begin
+    remote = beebox 
+    prog = vlc
+    button = KEY_STOP
+    config = key-stop
+    repeat = 0
+    delay = 0
+end
+
+begin
+    remote = beebox
+    prog = vlc
+    button = KEY_PLAY
+    config = key-play-pause
+    repeat = 0
+    delay = 0
+end
+
+begin
+    remote = beebox
+    prog = vlc
+    button = KEY_PAUSE
+    config = key-play-pause
+    repeat = 0
+    delay = 0
+end
+
+begin
+    remote = beebox 
+    prog = vlc
+    button = KEY_FRAMEFORWARD
+    config = key-next
+    repeat = 0
+    delay = 0
+end
+
+begin
+    remote = beebox 
+    prog = vlc
+    button = KEY_FRAMEBACK
+    config = key-prev
+    repeat = 0
+    delay = 0
+end
+
+begin
+    remote = beebox 
+    prog = vlc
+    button = KEY_REWIND
+    config = key-jump-medium
+    repeat = 0
+    delay = 0
+end
+
+begin
+    remote = beebox 
+    prog = vlc
+    button = KEY_FASTFORWARD
+    config = key-jump+medium
+    repeat = 0
+    delay = 0
+end
+
+begin
+    remote = beebox 
+    prog = vlc
+    button = KEY_CHANNELUP
+    config = key-title-next
+    repeat = 0
+    delay = 0
+end
+
+begin
+    remote = beebox 
+    prog = vlc
+    button = KEY_CHANNELDOWN
+    config = key-title-prev
+    repeat = 0
+    delay = 0
+end
+
+begin
+    remote = beebox 
+    prog = vlc
+    button = KEY_VOLUMEUP
+    config = key-vol-up
+    repeat = 0
+    delay = 0
+end
+
+begin
+    remote = beebox 
+    prog = vlc
+    button = KEY_VOLUMEDOWN
+    config = key-vol-down
+    repeat = 0
+    delay = 0
+end
+
+begin
+    remote = beebox 
+    prog = vlc
+    button = KEY_POWER
+    config = key-quit
+    repeat = 0
+    delay = 0
+end
