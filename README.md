@@ -17,6 +17,7 @@ Place the beebox.conf in /etc/lirc/lircd.conf.d
 
 Place the Lircmap.xml in ~/.kodi/userdata/
 
+Place the remote.xml in ~/.kodi/userdata/keymaps
 
 # Lircmap.xml Key Codes
 
