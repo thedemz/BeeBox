@@ -1,12 +1,24 @@
-<lircmap>
-  <remote device="beebox">		
-    <play>KEY_PLAY</play>
-    <select>KEY_OK</select>
+lircmap>
+  <remote device="beebox">
     <up>KEY_UP</up>
     <down>KEY_DOWN</down>
     <left>KEY_LEFT</left>
     <right>KEY_RIGHT</right>
+    <select>KEY_OK</select>
     <pause>KEY_PAUSE</pause>
+    <play>KEY_PLAY</play>
     <back>KEY_BACK</back>
+    <forward>KEY_FASTFORWARD</forward>
+    <reverse>KEY_REWIND</reverse>
+    <skipplus>KEY_FRAMEFORWARD</skipplus>
+    <skipminus>KEY_FRAMEBACK</skipminus>
+    <volumeplus>KEY_VOLUMEUP</volumeplus>
+    <volumeminus>KEY_VOLUMEDOWN</volumeminus>
+    <info>KEY_CHANNELUP</info>
+    <start>KEY_CHANNELDOWN</start>
+    <mute>KEY_MUTE</mute>
+    <menu>KEY_RECORD</menu>
+    <stop>KEY_STOP</stop>
+    <power>KEY_POWER</power>
   </remote>
 </lircmap>
