@@ -1,4 +1,4 @@
-lircmap>
+<lircmap>
   <remote device="beebox">
     <up>KEY_UP</up>
     <down>KEY_DOWN</down>
