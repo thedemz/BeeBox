@@ -23,4 +23,9 @@ Place the `remote.xml` in `~/.kodi/userdata/keymaps`
 
 https://github.com/xbmc/xbmc/blob/master/xbmc/input/ButtonTranslator.cpp#L1487
 
+![alt text](http://www.asrock.com/nettop/Accessories/Beebox%20Series.jpg "")
+
+
+
+
 
