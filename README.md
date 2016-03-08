@@ -1,17 +1,15 @@
 # BeeBox
-ASRock BeeBox as Arch HTPC (Kodi)
 
-Remote Control Files
+Type of device controlled: ASRock BeeBox, N3150-NUC
+System: Arch HTPC (Kodi)
 
-
-The keys from 
-
-$ irrecord -l
-
-are in keys.txt
-
+Remote device model nr: 04G500002000AK
+Remote device info url: http://www.asrock.com/nettop/Intel/Beebox%20Series/#Specifications
 
 # Config Files
+
+LIRC file with the codes for the remote control.
+Kodi lircmap and keymap to control the menus in Kodi.
 
 Place the beebox.conf in /etc/lirc/lircd.conf.d
 
