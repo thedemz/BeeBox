@@ -1,0 +1,8 @@
+[Unit]
+Description=IR Remote irexec config .lircrc loaded on startup
+
+[Service]
+ExecStart=/usr/bin/irexec -d $HOME/.lircrc
+
+[Install]
+WantedBy=multi-user.target
