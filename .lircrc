@@ -2,49 +2,49 @@ begin
     remote = beebox
     prog = irexec
     button = KEY_STOP
-    config = playerctl play-pause
+    config = playerctl --player=spotify play-pause
 end
 
 begin
     remote = beebox
     button = KEY_PLAY
     prog = irexec
-    config = playerctl play-pause
+    config = playerctl --player=spotify play-pause
 end
 
 begin
     remote = beebox
     button = KEY_PAUSE
     prog = irexec
-    config = playerctl play-pause
+    config = playerctl --player=spotify play-pause
 end
 
 begin
     remote = beebox
     button = KEY_FRAMEFORWARD
     prog = irexec
-    config = playerctl next
+    config = playerctl --player=spotify next
 end
 
 begin
     remote = beebox
     button = KEY_RIGHT
     prog = irexec
-    config = playerctl next
+    config = playerctl --player=spotify next
 end
 
 begin
     remote = beebox
     button = KEY_FRAMEBACK
     prog = irexec
-    config = playerctl previous
+    config = playerctl --player=spotify previous
 end
 
 begin
     remote = beebox
     button = KEY_LEFT
     prog = irexec
-    config = playerctl previous
+    config = playerctl --player=spotify previous
 end
 
 include "~/.lirc/vlc"
