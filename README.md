@@ -40,24 +40,30 @@ Place the `.lircrc` and `.lirc/vlc` in your home folder like `~/.lircrc` and `~/
 # Arch Packages
 
 https://www.archlinux.org/packages/extra/x86_64/lirc
+
 https://www.archlinux.org/packages/community/x86_64/kodi
+
 https://www.archlinux.org/packages/extra/x86_64/vlc
 
 
 https://aur.archlinux.org/packages/playerctl
+
 https://aur.archlinux.org/packages/spotify
 
 
 # Services
 
-This will run: /usr/bin/irexec -d $HOME/.lircrc
+This will run: `/usr/bin/irexec -d $HOME/.lircrc`
 
-Place irexec.service in /etc/systemd/system
+Place `irexec.service` in `/etc/systemd/system`
 
-$ cd /etc/systemd/system
-$ sudo chmod 755 irexec.service
-$ sudo systemctl enable irexec.service
-$ sudo systemctl start irexec.service
+`$ cd /etc/systemd/system`
+
+`$ sudo chmod 755 irexec.service`
+
+`$ sudo systemctl enable irexec.service`
+
+`$ sudo systemctl start irexec.service`
 
 ![alt text](http://www.asrock.com/nettop/Accessories/Beebox%20Series.jpg "")
 
